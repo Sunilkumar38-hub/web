@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <title>Demo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <h1><span>Demo</span>Gallery</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Ipsa, hic!</p>
+    </header>
+    <main class='container'>
+        <section class="card">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bugatti-chiron-pur-sport-106-1582836604.jpg" alt="">
+            <div>
+                <h3>Painting One</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Ex sint autem eum eos consequuntur
+                    placeat delectus esse possimus. Aliquid, natus.
+                </p>
+                <a href="" class='btn'>Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="zoom-in">
+            <img src="images/three.jpg" alt="">
+            <div>
+                <h3>Painting Two</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Ex sint autem eum eos consequuntur placeat
+                    delectus esse possimus. Aliquid, natus. </p>
+                <a href="" class='btn'>Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img src="images/two.jpg" alt="">
+            <div>
+                <h3>Painting Three</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Ex sint autem eum eos consequuntur
+                    placeat delectus esse possimus. Aliquid, natus.
+                </p>
+                <a href="" class='btn'>Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img src="images/one.jpg" alt="">
+            <div>
+                <h3>Painting Four</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Ex sint autem eum eos consequuntur
+                    placeat delectus esse possimus. Aliquid, natus..
+                </p>
+                <a href="" class='btn'>Buy Now</a>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
